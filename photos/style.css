@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  overflow-wrap: anywhere;
 }
 
 html {
@@ -68,7 +69,6 @@ header {
 header a {
   display: inline-block;
   margin-bottom: 32px;
-  width: 160px;
   transition: opacity 0.3s ease;
 }
 
