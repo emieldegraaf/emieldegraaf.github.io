@@ -25,20 +25,20 @@ body {
 }
 
 h1 {
-  font-size: 24px;
-  line-height: 125%;
+  font-size: 1.5rem;
+  line-height: 1.25;
   font-weight: 300;
 }
 
 h2 {
-  font-size: 20px;
-  line-height: 125%;
+  font-size: 1.25rem;
+  line-height: 1.25;
   font-weight: 300;
 }
 
 p {
-  font-size: 16px;
-  line-height: 150%;
+  font-size: 1rem;
+  line-height: 1.5;
 }
 
 a {
@@ -53,11 +53,11 @@ img {
 
 @media screen and (min-width: 640px) {
   h1 {
-    font-size: 32px;
+    font-size: 2rem;
   }
 
   h2 {
-    font-size: 24px;
+    font-size: 1.5rem;
   }
 }
 
@@ -110,7 +110,7 @@ header img {
   transition: opacity 0.3s ease;
   display: inline-block;
   transition: text-decoration-color 0.3s ease;
-  text-underline-offset: 4px;
+  text-underline-offset: 0.25rem;
   text-decoration-thickness: 1px;
   padding: 16px 0;
 }
