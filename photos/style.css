@@ -13,14 +13,14 @@ body {
   font-family: "Inter", sans-serif;
   color: #FFFFFF;
   font-weight: 300;
-  padding: 64px 16px;
+  padding: 64px 16px 96px 16px;
   display: grid;
   row-gap: 64px;
 }
 
 @media screen and (min-width: 640px) {
   body {
-    padding: 64px 32px;
+    padding: 64px 32px 96px 32px;
   }
 }
 
@@ -89,6 +89,7 @@ header img {
 
 .album {
   text-decoration: none;
+  margin-bottom: -16px;
 }
 
 .album img {
@@ -103,10 +104,6 @@ header img {
   }
 }
 
-.album h2 {
-  margin-bottom: 16px
-}
-
 .album p {
   text-decoration: underline;
   text-decoration-color: #666666;
@@ -115,6 +112,7 @@ header img {
   transition: text-decoration-color 0.3s ease;
   text-underline-offset: 4px;
   text-decoration-thickness: 1px;
+  padding: 16px 0;
 }
 
 .album p:hover {
