@@ -14,7 +14,7 @@ body {
   color: #FFFFFF;
   font-weight: 300;
   padding: 64px 16px;
-  display: grid; 
+  display: grid;
   row-gap: 64px;
 }
 
@@ -62,6 +62,12 @@ img {
 
 header {
   text-align: center;
+}
+
+header img {
+  width: 32px;
+  margin: 0 auto 32px auto;
+  display: block;
 }
 
 header p {
