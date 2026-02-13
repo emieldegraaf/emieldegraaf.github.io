@@ -2,6 +2,12 @@
   margin: 0;
 }
 
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
 body {
   background-color: #000000;
   font-family: "Inter", sans-serif;
